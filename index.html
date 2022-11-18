@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задание 8</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://carrier.formcarry.com/js/v1.js" defer></script>
+  <script src="js.js" defer></script>
+</head>
+
+<body>
+  <div id="start">Оставить сообщение</div>
+  <div id="popupwrapper">
+    <div id="popup">
+      <div id="exit"></div>
+      <form id="my-form" accept-charset="UTF-8" >
+        <div>
+          <span class="titlefield">Имя</span><br>
+          <input class="field" type="text" name="name" placeholder="Введите ваше имя" required><br>
+        </div>
+        <div>
+          <span class="titlefield">Почта</span><br>
+          <input class="field" type="email" name="email" placeholder="Введите вашу почту" required><br>
+        </div>
+        <div>
+          <span class="titlefield">Сообщение</span><br>
+          <textarea placeholder="Сообщение" name="message" required></textarea><br>
+        </div>
+        <div>
+          <span class="titlefield">Согласие с политикой обработки персональных данных</span>
+          <input type="checkbox" name="agree" required>
+        </div>
+        <div class="but">
+          <input id="submit" type="submit">
+        </div>
+
+      </form>
+    </div>
+  
+  </div>
+</body>
+
+</html>
